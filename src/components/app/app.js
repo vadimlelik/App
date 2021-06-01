@@ -40,6 +40,7 @@ export default class App extends Component {
            }
        });
     }
+
     addItem(body){
         const newItem = {
             label:body,
@@ -53,6 +54,7 @@ export default class App extends Component {
             }
         })
     }
+
     render() {
         return (
             <div className='app'>
